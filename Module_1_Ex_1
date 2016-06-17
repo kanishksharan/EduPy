@@ -1,0 +1,29 @@
+Write a program to remove the following from: www.edureka.in
+a. Remove all w’s before and after .edureka.
+b. Remove all lowercase letter before and after .edureka.
+c. Remove all printable characters
+#-----------------------------------------
+
+import string
+
+str2 = "www.edureka.in"
+print(str2.strip("w"))
+print (str2.strip(string.ascii_lowercase))
+print (str2.strip(string.printable))
+
+Write a program for String Formatting Operator % which should include the following conversions:
+a. Character
+b. Signed decimal integer
+c. Octal integer
+d. Hexadecimal integer (UPPERcase letters)
+e. Floating point real number
+f. Exponential notation (with lowercase 'e')
+
+
+Solution
+>>>”My name is %s and my age is %d years!” % (‘Ana’, 21) ‘My name is Ana and my age is 21 years!’
+>>>”My car’s number is %o” %(‘0010’)
+‘My car’s number is 0010’
+>>>”My pan card number is %X” % (‘0XB5’) ‘My pan card number is 0XB5’
+>>>”My weight is approximately %f” % (’55.53’) ‘My weight is approximately 55.53’
+>>>”Currently my account balance is %e” % (’4.5e6’) ‘Currently my account balance is 4.5e6’
