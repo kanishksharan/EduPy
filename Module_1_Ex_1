@@ -33,3 +33,11 @@ s = "Kanishk"
 print (s[:3]+s[3:])
 o/p = "Kanishk"
 #---------------------------------------------------------------
+
+# Printing on the same line
+for i in range(1,6):
+	print (i,end="\t") # You can replace "\t" with "\n" as well
+	
+# Another variation of print
+print ("kanishk","Sharan",sep="-")
+
