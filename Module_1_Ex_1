@@ -27,3 +27,9 @@ Solution
 >>>”My pan card number is %X” % (‘0XB5’) ‘My pan card number is 0XB5’
 >>>”My weight is approximately %f” % (’55.53’) ‘My weight is approximately 55.53’
 >>>”Currently my account balance is %e” % (’4.5e6’) ‘Currently my account balance is 4.5e6’
+
+#--------------------------------------------------------------
+s = "Kanishk"
+print (s[:3]+s[3:])
+o/p = "Kanishk"
+#---------------------------------------------------------------
